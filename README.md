@@ -1,2 +1,2 @@
 # WEB-DEVLOPMENT
-This is my journey of learning web devlopment from basic :)
+This is my journey of learning web devlopment from basic:)
