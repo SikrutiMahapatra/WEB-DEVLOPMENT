@@ -3,9 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>weekly timetable</title>
 </head>
 <body>
-    <p>hello world</p>
+    
+    <table border="2">
+        <thead>
+            <tr>
+                <th>weeks</th>
+                <th>languages to learn</th>
+            </tr>
+        
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    week 1
+                </td>
+                <td>python</td>
+
+            </tr>
+            <tr>
+                <td>week 2</td>
+                <td>java</td>
+            </tr>
+            <tr>
+                <td>week 3</td>
+                <td>c</td>
+            </tr>
+            <tr>
+                <td>week 4</td>
+                <td>c++</td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                <td colspan="2">
+                    all this should be seriously completed
+                </td>
+                </tr>
+            </tfoot>
+    </table><br>
+    <fieldset>
+        <legend><strong>Signup Form</strong></legend>
+<form action="/action.php" method="post">
+    <label for="name">your name</label>
+    <input name="name" placeholder="enter your name" id="name" type="text">
+    <br><br>
+
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <br><br>
+
+    
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <br><br>
+    <label>number</label>
+    <input type="number" id="number" name="number" placeholder="enter your number" required>
+    <br><br>
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob">
+    <br><br>
+    <label for="profile-pic">Upload Profile Picture:</label>
+    <input type="file" id="profile-pic" name="profile-pic" accept="image/*">
+    <br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</fieldset>
+
+
+
+</form>   
 </body>
-</html>git
+
+</html>
